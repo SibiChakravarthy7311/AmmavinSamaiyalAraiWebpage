@@ -1,0 +1,23 @@
+*{
+    margin-top: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+t1 {
+  width: 100%;
+  background-color: #f1f1c1;
+}
+
+t1 tr:nth-child(even) {
+  background-color: #eee;
+}
+
+t1 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+t1 th {
+  color: white;
+  background-color: black;
+}

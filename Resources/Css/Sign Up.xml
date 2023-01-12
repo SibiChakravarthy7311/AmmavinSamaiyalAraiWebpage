@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE signupDetails SYSTEM "Sign Up.dtd"> -->
+<?xml-stylesheet type="text/xsl" href="C:\Sibi\HTML Files\Ammavin Samaiyal Arai\Resources\Css\Sign UpXmlStyle.xsl"?>
+<signupDetails>
+    <user>
+    	<Name>Nesamani</Name>
+    	<Email type="Email">nesamani@gmail.com</Email>
+    	<ph.no>6747567989</ph.no>
+    </user>
+    <user>
+    	<Name>Kaipulla</Name>
+    	<Email type="Email">Kaipulla@yahoo.com</Email>
+    	<ph.no>6364756738</ph.no>
+    </user>
+    <user>
+    	<Name>BodySoda</Name>
+    	<Email type="Email">bodysoda@linked.in</Email>
+    	<ph.no>6746477989</ph.no>
+    </user>
+    <user>
+    	<Name>SoonaPaana</Name>
+    	<Email type="Email">sp123@vadivelu.com</Email>
+    	<ph.no>8976546748</ph.no>
+    </user>
+</signupDetails>

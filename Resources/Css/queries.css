@@ -1,0 +1,47 @@
+
+/* for devices between 1023px and 1200px of size / resolution
+   Small Computers : 768px to 1023px  */
+@media only screen and (max-width: 1200px){
+    .hero-text{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row{
+        padding: 0 2%;        
+    }
+    
+    .hero-text a { 
+        margin-left: 2%; }
+    h1{padding: 0 2%;}
+}
+
+/* for devices between 767px and 1023px of size / resolution
+   Big Tablets : 847px to 1023px  */
+@media only screen and (max-width: 1023px){
+    body{ font-size: 18px; }
+    
+    section{ padding: 60px 0; }
+     
+    .hero-text{ margin-left: 20%; }
+    
+    .hero-text a:first-child { 
+        margin-left: 2%; } 
+    
+    .steps-box{ margin-top: 10px; }
+    
+    .workstep{ margin-bottom: 40px; }
+    ,workstep:last-of-type{ margin-bottom: 80px; }
+}
+
+/* for devices between 480px and 767px of size / resolution
+   Small Tablets : 481px to 846px  */
+@media only screen and (max-width: 846px){
+    
+}
+
+/* for devices less than 480px of size / resolution
+   Small Phones : 0 to 480px  */
+@media only screen and (max-width: 480px){
+    
+}

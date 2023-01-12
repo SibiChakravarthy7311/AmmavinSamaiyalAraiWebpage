@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE signupDetails SYSTEM "Sign Up.dtd"> -->
+<?xml-stylesheet type="text/xsl" href="C:\Sibi\HTML Files\Ammavin Samaiyal Arai\BooksXmlStyle.xsl"?>
+<books>
+    <book>
+        <TITLE>Nesamani</TITLE>
+    	<ISBN_NO>nesamani@gmail.com</ISBN_NO>
+    	<AUTHOR>6747567989</AUTHOR>
+        <PUBLISHER>nesamani@gmail.com</PUBLISHER>
+    	<PRICE>6747567989</PRICE>
+    </book>
+    <book>
+    	<TITLE>Nesamani</TITLE>
+    	<ISBN_NO>nesamani@gmail.com</ISBN_NO>m 
+    	<AUTHOR>6747567989</AUTHOR>
+        <PUBLISHER>nesamani@gmail.com</PUBLISHER>
+    	<PRICE>6747567989</PRICE>
+    </book>
+    <book>
+    	<TITLE>Nesamani</TITLE>
+    	<ISBN_NO>nesamani@gmail.com</ISBN_NO>
+    	<AUTHOR>6747567989</AUTHOR>
+        <PUBLISHER>nesamani@gmail.com</PUBLISHER>
+    	<PRICE>6747567989</PRICE>
+    </book>
+</books>
+

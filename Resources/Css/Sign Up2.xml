@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="C:\Sibi\HTML Files\Ammavin Samaiyal Arai\Resources\Css\Sign UpXmlStyle.xsl"?>
+<signupSection>
+    
+    <!-- NAME VALIDATION -->
+    
+    <validator type="requiredstring">
+        <param name="Name">name</param>
+        <message>Name is required.</message>
+    </validator>
+    
+    
+    <!-- E-MAIL ID VALIDATION -->
+    
+    <validator type="requiredstring">
+        <param name="Email">Email</param>
+        <message>Email address is required.</message>
+    </validator>
+    <validator type="email">
+        <param name="Email">Email</param>
+        <message>Email address not valid.</message>
+    </validator>
+    
+    
+    <!-- PHONE NUMBER VALIDATION -->
+    
+    <validator type="requiredstring">
+        <param name="ph.no">ph.no</param>
+        <message>Phone number is required.</message>
+    </validator>
+    <validator type="regex">
+        <param name="ph.no">personBean.phoneNumber</param>
+        <param name="regex"><![CDATA[\d{3}-\d{3}-\d{4}]]></param>
+        <message>Phone number must be entered as 987-654-3210.</message>
+    </validator>
+    
+</signupSection>

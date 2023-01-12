@@ -1,0 +1,9 @@
+<!DOCTYPE signupDetails
+[
+<!ELEMENT signupDetails user1(fullname,Email,phone,createpassword,retypepassword)>
+<!ELEMENT fullname (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+<!ELEMENT createpassword (#PCDATA)>
+<!ELEMENT retypepassword (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
